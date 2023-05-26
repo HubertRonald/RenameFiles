@@ -9,12 +9,12 @@
 > Nota: Sobre lo anterior las capturas de pantalla por defecto se guardan con fecha y hora en el sistema operativo, por tal motivo ya están ordenas por defecto.
 
 
-# Prerequisitos
+## Prerequisitos
 No requiere el uso de ningún paquete externo de `Python`, por tal motivo, este script `rename_files.py` debe correr en Python 3.6 en adelante sin problemas.
 
 No obstante si el shebang (`#!`) está generando inconvenientes, se puede crear un ambiente virtual de acuerdo al sistema operativo (OS) anfitrión (host)
 
-## MacOS
+### MacOS
 
 Se crea el ambiente virtual en el directorio dónde se tiene el script desde la terminal
 
@@ -32,7 +32,7 @@ Para desabilitar el entorno virtual
 deactivate
 ```
 
-## Windows
+### Windows
 
 Se crea el ambiente virtual en el directorio dónde se tiene el script desde el power shell por ejemplo primero `C:\<TU-RUTA>\`
 
@@ -64,7 +64,7 @@ deactivate
 > Nota: Es posible correr un entorno Linux en Windows, con alguna distribución open source. Ver el siguiente enlace para más detalle [Instalación de Linux en Windows con WSL](https://learn.microsoft.com/es-es/windows/wsl/install)
 
 
-# Uso
+## Uso
 Al lanzar el siguiente comando en la terminal (Si estás en Windows cambiar`python3` por `py` o `python` dependiendo de como esté definida la variable de entorno para python):
 
 ```bash
@@ -100,7 +100,7 @@ optional arguments:
   --is_test IS_TEST     Is test mode
 ```
 
-## Parámetros
+### Parámetros
 
 1. `--directory`: o también `-d` este por defecto toma el directorio actual `./`
 
@@ -118,7 +118,7 @@ optional arguments:
 
 > Nota: Entre el punto 2 y 3 existe un parámetro `idx` dentro de la función `change_name` que lleva el conteo de los archivos y se los asigna de forma automática a los nombres de los mismos para diferenciarlos.
 
-## Ejemplos
+### Ejemplos
 
 Todos los ejemplos se presentan a modo de prueba `--is_test true`
 
@@ -182,17 +182,17 @@ Todos los ejemplos se presentan a modo de prueba `--is_test true`
 > Si estas en Windows cambiar`python3` por `py` o `python`. Si empleas un entorno virtual puedes usar `python` también.
 
 
-# Imágenes
+## Imágenes
 Tomadas de [pixabay](https://pixabay.com/es/)
 
 [![](/src/original/alpaca-gaa9f35dc2_640.jpg)](https://pixabay.com/photos/alpaca-llama-animal-lama-head-4524200/)
 [![](/src/original/llama-g6f862433a_640.jpg)](https://pixabay.com/photos/lama-head-curious-nose-mouth-7024125/)
 [![](/src/original/llama-g8e2017c1e_640.jpg)](https://pixabay.com/photos/llama-animal-head-brown-llama-head-5841826/)
 
-# Consideraciones
+## Consideraciones
 Sobre el script, al ser pequeño, busqué no añadirle dependencias u otras capas de complejidad. Por tal motivo, no he efectuado `test unitarios` ([pytest](https://docs.pytest.org/en/7.3.x/)), ni he aplicado [pylint](https://pypi.org/project/pylint/) o similares. Esto último para verificar que el código cumple con el [PEP 8](https://peps.python.org/pep-0008/).
 
-# .gitignore
+## .gitignore
 
 Fue generado en [gitignore.io](https://www.toptal.com/developers/gitignore/) con los filtros `python`, `macos`, `windows` y consumido mediante su API como archivo crudo desde la terminal:
 
@@ -200,7 +200,7 @@ Fue generado en [gitignore.io](https://www.toptal.com/developers/gitignore/) con
 curl -L https://www.toptal.com/developers/gitignore/api/python,macos,windows > .gitignore
 ```
 
-# Autores
+## Autores
 
 * **Hubert Ronald** - *Trabajo Inicial* - [HubertRonald](https://github.com/HubertRonald)
 
@@ -208,6 +208,6 @@ Ve también la lista de [contribuyentes](https://github.com/HubertRonald/RenameF
 
 
 
-# Licencia
+## Licencia
 
 Este proyecto está bajo licencia MIT - ver la [LICENCIA](LICENSE) archivo (en inglés) para más detalle.
