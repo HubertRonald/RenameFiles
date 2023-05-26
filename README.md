@@ -1,8 +1,8 @@
 [![python](https://img.shields.io/badge/python3-v3.6.0-brightgreen)](https://www.python.org/dev/peps/pep-0537/#schedule-first-bugfix-release)
 [![dependency - argparse](https://img.shields.io/badge/dependency-argparse-blue)](https://pypi.org/project/argparse/1.4.0/)
 
-# Renombrar Archivos
-Este pequeño proyecto nace con la finalidad de renombrar las capturas de pantalla que hago de mis clases online, para luego incluirlas en los Readme (anotaciones) o notebooks de forma más estructurada y ordenada.
+# RenameFiles
+*Renombrar Archivos* es un pequeño proyecto nace con la finalidad de renombrar las capturas de pantalla que hago de mis clases online, para luego incluirlas en los Readme (anotaciones) o notebooks de forma más estructurada y ordenada.
 
 ![](/src/original/alpaca-gaa9f35dc2_640.jpg)
 
