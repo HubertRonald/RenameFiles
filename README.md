@@ -1,5 +1,6 @@
 [![python](https://img.shields.io/badge/python3-v3.6.0-brightgreen?style=flat-square)](https://www.python.org/dev/peps/pep-0537/#schedule-first-bugfix-release)
 [![dependency - argparse](https://img.shields.io/badge/dependency-argparse-blue?style=flat-square)](https://pypi.org/project/argparse/1.4.0/)
+![GitHub last commit](https://img.shields.io/github/last-commit/hubertronald/RenameFiles?style=flat-square)
 [![MIT](https://img.shields.io/github/license/hubertronald/RenameFiles?style=flat-square)](LICENSE)
 
 
