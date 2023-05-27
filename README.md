@@ -1,5 +1,7 @@
-[![python](https://img.shields.io/badge/python3-v3.6.0-brightgreen)](https://www.python.org/dev/peps/pep-0537/#schedule-first-bugfix-release)
-[![dependency - argparse](https://img.shields.io/badge/dependency-argparse-blue)](https://pypi.org/project/argparse/1.4.0/)
+[![python](https://img.shields.io/badge/python3-v3.6.0-brightgreen?style=flat-square)](https://www.python.org/dev/peps/pep-0537/#schedule-first-bugfix-release)
+[![dependency - argparse](https://img.shields.io/badge/dependency-argparse-blue?style=flat-square)](https://pypi.org/project/argparse/1.4.0/)
+[![MIT](https://img.shields.io/github/license/hubertronald/RenameFiles?style=flat-square)](LICENSE)
+
 
 # RenameFiles
 *Renombrar Archivos* es un pequeño proyecto que nace con la finalidad de renombrar las capturas de pantalla que hago de mis clases online, para luego incluirlas en los Readme (anotaciones) o notebooks de forma más estructurada y ordenada.
